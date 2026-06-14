@@ -19,7 +19,7 @@ Este documento sirve como registro oficial del estado del informe de Proyecto In
 
 ## 2. Estado de Validación Académica
 
-*   **Alcance Validado (Base Válida):** Todo el contenido comprendido desde la Introducción (Capítulo 1) hasta el apartado **5.2.4 SPRINT BACKLOG** (inclusive) en el Capítulo 5 se considera **Académicamente Válido y Aprobado**. Este contenido se conserva intacto en [informe-base-validado.md](file:///c:/dev/apps/INTELECTA-DOCS/docs/01-informe-academico/informe-base-validado.md).
+*   **Alcance Validado (Base Válida):** Todo el contenido comprendido desde la Introducción (Capítulo 1) hasta el apartado **5.2.4 SPRINT BACKLOG** (inclusive) en el Capítulo 5 se considera **Académicamente Válido y Aprobado**. Este contenido se conserva intacto en [informe-base-validado.md](informe-base-validado.md).
 *   **Punto de Corte:** A partir del apartado **5.3 FASE 2 – GAME** en adelante, el contenido es catalogado como **Pendiente de Reconstrucción**. Los diagramas de secuencia, colaboración, mapas de navegación y clases no representan la arquitectura real de Laravel 13/PostgreSQL del sistema actual.
 
 ---

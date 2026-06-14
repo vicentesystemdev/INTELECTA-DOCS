@@ -15,22 +15,22 @@ Para mantener un orden metodológico y evitar la mezcla de archivos binarios con
 ## 2. Estado Académico del Informe
 
 *   **Base Validada (Hasta 5.2.4):** El contenido del informe académico oficial convertido a Markdown es válido y estable hasta el apartado **5.2.4 SPRINT BACKLOG**. El documento unificado limpio se localiza en:
-    *   [`docs/01-informe-academico/informe-base-validado.md`](file:///c:/dev/apps/INTELECTA-DOCS/docs/01-informe-academico/informe-base-validado.md)
+    *   [docs/01-informe-academico/informe-base-validado.md](docs/01-informe-academico/informe-base-validado.md)
 *   **Pendiente de Reconstrucción (Desde 5.3):** A partir del apartado **5.3 FASE 2 – GAME** en adelante (incluyendo diagramas de secuencia, casos de uso, diagrama físico de base de datos y mapa de navegación), el informe antiguo presenta inconsistencias y debe ser reescrito según el sistema actual. El checklist detallado se encuentra en:
-    *   [`docs/01-informe-academico/pendiente-reconstruccion-desde-5-3.md`](file:///c:/dev/apps/INTELECTA-DOCS/docs/01-informe-academico/pendiente-reconstruccion-desde-5-3.md)
+    *   [docs/01-informe-academico/pendiente-reconstruccion-desde-5-3.md](docs/01-informe-academico/pendiente-reconstruccion-desde-5-3.md)
 
 ---
 
 ## 3. Mapa de Navegación de Carpetas
 
-*   [`docs/00-contexto/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/00-contexto/): Ficha del proyecto, alcance del sistema y decisiones documentales.
-*   [`docs/01-informe-academico/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/01-informe-academico/): Capítulos del informe oficial en Markdown, control de revisión y base validada.
-*   [`docs/02-documentacion-tecnica/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/02-documentacion-tecnica/): Arquitectura de software, modelo de base de datos relacional y especificaciones de módulos.
-*   [`docs/03-diagramas/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/03-diagramas/): Archivos editables (`.drawio`, `.puml`) y exportados de los diagramas del sistema.
-*   [`docs/04-prompts/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/04-prompts/): Prompts estructurados de desarrollo, auditorías y preparación para la defensa académica.
-*   [`docs/05-auditorias/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/05-auditorias/): Reportes de auditoría de interfaz, backend y base de datos (incluyendo la v1 y v2).
-*   [`docs/06-evidencias/`](file:///c:/dev/apps/INTELECTA-DOCS/docs/06-evidencias/): Capturas del sistema en ejecución, el archivo Word original (`.docx`) y evidencias de commits.
-*   [`plantillas/`](file:///c:/dev/apps/INTELECTA-DOCS/plantillas/): Plantillas Markdown reutilizables para historias de usuario, casos de uso y bitácoras.
+*   [docs/00-contexto/](docs/00-contexto/): Ficha del proyecto, alcance del sistema y decisiones documentales.
+*   [docs/01-informe-academico/](docs/01-informe-academico/): Capítulos del informe oficial en Markdown, control de revisión y base validada.
+*   [docs/02-documentacion-tecnica/](docs/02-documentacion-tecnica/): Arquitectura de software, modelo de base de datos relacional y especificaciones de módulos.
+*   [docs/03-diagramas/](docs/03-diagramas/): Archivos editables (`.drawio`, `.puml`) y exportados de los diagramas del sistema.
+*   [docs/04-prompts/](docs/04-prompts/): Prompts estructurados de desarrollo, auditorías y preparación para la defensa académica.
+*   [docs/05-auditorias/](docs/05-auditorias/): Reportes de auditoría de interfaz, backend y base de datos (incluyendo la v1 y v2).
+*   [docs/06-evidencias/](docs/06-evidencias/): Capturas del sistema en ejecución, el archivo Word original (`.docx`) y evidencias de commits.
+*   [plantillas/](plantillas/): Plantillas Markdown reutilizables para historias de usuario, casos de uso y bitácoras.
 
 ---
 
