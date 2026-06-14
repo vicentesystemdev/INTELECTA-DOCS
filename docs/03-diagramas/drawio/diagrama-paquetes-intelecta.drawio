@@ -1,0 +1,231 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram name="Diagrama de Paquetes INTELECTA" id="diagrama-paquetes-intelecta">
+    <mxGraphModel dx="1717" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="presentation_layer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="190" width="580" x="470" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-5" edge="1" parent="1" source="presentation_layer_title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" target="business_layer_title">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="20" />
+              <mxPoint x="160" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="presentation_layer_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" value="CAPA DE PRESENTACIÓN" vertex="1">
+          <mxGeometry height="30" width="240" x="490" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="pres_publicas" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="VISTAS PÚBLICAS" vertex="1">
+          <mxGeometry height="55" width="150" x="520" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pres_admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PORTAL&lt;br&gt;ADMINISTRATIVO" vertex="1">
+          <mxGeometry height="55" width="165" x="745" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pres_post" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PORTAL DEL&lt;br&gt;POSTULANTE" vertex="1">
+          <mxGeometry height="55" width="150" x="520" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="pres_tutor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PANEL DEL TUTOR&lt;br&gt;ACADÉMICO" vertex="1">
+          <mxGeometry height="55" width="165" x="745" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="business_layer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="535" width="1550" x="30" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-8" edge="1" parent="1" source="business_layer_title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="persist_layer_title">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="business_layer_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" value="CAPA DE LÓGICA DE NEGOCIO" vertex="1">
+          <mxGeometry height="30" width="240" x="40" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="seguridad_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="180" width="360" x="45" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-6" edge="1" parent="1" source="seguridad_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="control_tab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="290" />
+              <mxPoint x="35" y="538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seguridad_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO SEGURIDAD Y&lt;br&gt;ADMINISTRACIÓN" vertex="1">
+          <mxGeometry height="34" width="290" x="55" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="seguridad_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="AUTENTICACIÓN" vertex="1">
+          <mxGeometry height="48" width="142" x="73" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="seguridad_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="GESTIÓN DE USUARIOS" vertex="1">
+          <mxGeometry height="48" width="142" x="235" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="seguridad_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="GESTIÓN DE ROLES Y PERMISOS" vertex="1">
+          <mxGeometry height="48" width="142" x="73" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="seguridad_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="DASHBOARD INSTITUCIONAL" vertex="1">
+          <mxGeometry height="48" width="142" x="235" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="control_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="200" width="360" x="45" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-3" edge="1" parent="1" source="control_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="postulantes_tab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-7" edge="1" parent="1" source="control_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="institucional_tab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="538" />
+              <mxPoint x="420" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="control_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO CONTROL INTERNO&lt;br&gt;Y HABILITACIÓN" vertex="1">
+          <mxGeometry height="34" width="290" x="55" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="control_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="INSCRIPCIONES" vertex="1">
+          <mxGeometry height="48" width="142" x="73" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="control_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="MATRÍCULAS Y CUOTAS" vertex="1">
+          <mxGeometry height="48" width="142" x="235" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="control_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="HABILITACIÓN ACADÉMICA" vertex="1">
+          <mxGeometry height="48" width="142" x="73" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="control_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="CONTROL DE ASISTENCIA" vertex="1">
+          <mxGeometry height="48" width="142" x="235" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="180" width="360" x="455" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO GESTIÓN&lt;br&gt;INSTITUCIONAL" vertex="1">
+          <mxGeometry height="34" width="290" x="465" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PROGRAMAS ACADÉMICOS" vertex="1">
+          <mxGeometry height="48" width="142" x="483" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="GRUPOS Y PARALELOS" vertex="1">
+          <mxGeometry height="48" width="142" x="645" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="TUTORES ACADÉMICOS" vertex="1">
+          <mxGeometry height="48" width="142" x="483" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="institucional_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="ASIGNACIÓN DE TUTORES" vertex="1">
+          <mxGeometry height="48" width="142" x="645" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="postulantes_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="200" width="360" x="455" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-4" edge="1" parent="1" source="postulantes_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="core_tab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="530" />
+              <mxPoint x="840" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="postulantes_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO GESTIÓN DE&lt;br&gt;POSTULANTES" vertex="1">
+          <mxGeometry height="34" width="290" x="465" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="postulantes_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="CRUD POSTULANTES" vertex="1">
+          <mxGeometry height="48" width="142" x="483" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="postulantes_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="EXPEDIENTE DEL POSTULANTE" vertex="1">
+          <mxGeometry height="48" width="142" x="645" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="postulantes_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="CATÁLOGOS ACADÉMICOS" vertex="1">
+          <mxGeometry height="48" width="142" x="564" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="core_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="230" width="390" x="865" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="core_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO CORE&lt;br&gt;EVALUATIVO" vertex="1">
+          <mxGeometry height="34" width="290" x="875" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="CONFIGURACIÓN ACADÉMICA" vertex="1">
+          <mxGeometry height="48" width="157" x="893" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="BANCO DE PREGUNTAS" vertex="1">
+          <mxGeometry height="48" width="157" x="1070" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="MATERIAS, ÁREAS Y TEMAS" vertex="1">
+          <mxGeometry height="48" width="157" x="893" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PLANTILLAS DE EVALUACIÓN" vertex="1">
+          <mxGeometry height="48" width="157" x="1070" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="SIMULACROS PROGRAMADOS" vertex="1">
+          <mxGeometry height="48" width="157" x="893" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="core_c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="APLICACIÓN DE EVALUACIONES" vertex="1">
+          <mxGeometry height="48" width="157" x="1070" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="resultados_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="160" width="390" x="865" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-1" edge="1" parent="1" source="resultados_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="reportes_tab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="570" />
+              <mxPoint x="1280" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="resultados_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO RESULTADOS&lt;br&gt;Y SEGUIMIENTO" vertex="1">
+          <mxGeometry height="34" width="290" x="875" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="resultados_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="PROCESAMIENTO DE RESULTADOS" vertex="1">
+          <mxGeometry height="48" width="157" x="893" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="resultados_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="FICHA ACADÉMICA INTEGRAL" vertex="1">
+          <mxGeometry height="48" width="157" x="1070" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="resultados_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="RANKING ACADÉMICO" vertex="1">
+          <mxGeometry height="48" width="157" x="893" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="resultados_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="RIESGO ACADÉMICO" vertex="1">
+          <mxGeometry height="48" width="157" x="1070" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="reportes_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="215" width="250" x="1300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9QohZqqP8-vqsBGvMSQg-2" edge="1" parent="1" source="reportes_tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="resultados_tab">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="418" />
+              <mxPoint x="1570" y="770" />
+              <mxPoint x="840" y="770" />
+              <mxPoint x="840" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reportes_tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;" value="DOMINIO REPORTES Y&lt;br&gt;LEARNING ANALYTICS" vertex="1">
+          <mxGeometry height="34" width="230" x="1310" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="reportes_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="GENERACIÓN DE REPORTES" vertex="1">
+          <mxGeometry height="48" width="87" x="1328" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="reportes_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="INDICADORES DE DESEMPEÑO" vertex="1">
+          <mxGeometry height="48" width="87" x="1435" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="reportes_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" value="LEARNING ANALYTICS CONCEPTUAL" vertex="1">
+          <mxGeometry height="48" width="87" x="1381" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="persist_layer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="175" width="440" x="500" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="persist_layer_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" value="CAPA DE PERSISTENCIA Y SOPORTE" vertex="1">
+          <mxGeometry height="30" width="240" x="520" y="837" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;" value="POSTGRESQL&lt;br&gt;BASE DE DATOS" vertex="1">
+          <mxGeometry height="70" width="130" x="565" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="redis" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;align=center;verticalAlign=middle;" value="REDIS&lt;br&gt;CACHE Y COLAS" vertex="1">
+          <mxGeometry height="70" width="130" x="730" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="core_box" style="endArrow=open;html=1;rounded=0;dashed=1;dashPattern=8 8;strokeColor=#000000;fontSize=11;" target="resultados_box" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
