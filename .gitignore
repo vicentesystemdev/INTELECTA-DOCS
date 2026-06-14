@@ -1,0 +1,51 @@
+# gitignore de INTELECTA-DOCS
+# Repositorio puramente documental. Ignora código, compilados, dependencias y temporales.
+
+# Bloqueos globales de desarrollo y código
+*
+!*/
+!.gitignore
+
+# Permitir formatos documentales específicos
+!*.md
+!*.docx
+!*.pdf
+!*.drawio
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.xlsx
+!.gitkeep
+
+# Archivos temporales de MS Office (Word, Excel, PowerPoint)
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~*
+.tmp
+*.tmp
+
+# Temporales de Sistema Operativo
+.DS_Store
+.DS_Store?
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Caché de editores y herramientas
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Archivos comprimidos de respaldo general (descomprimir antes de subir)
+*.zip
+*.rar
+*.tar.gz
+*.7z
